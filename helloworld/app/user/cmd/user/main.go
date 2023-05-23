@@ -4,7 +4,7 @@ import (
 	"flag"
 	"os"
 
-	"helloworld/user/internal/conf"
+	"helloworld/app/user/internal/conf"
 
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/config"

@@ -7,14 +7,17 @@
 package main
 
 import (
-	"helloworld/user/internal/biz"
-	"helloworld/user/internal/conf"
-	"helloworld/user/internal/data"
-	"helloworld/user/internal/server"
-	"helloworld/user/internal/service"
-
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
+	"helloworld/app/user/internal/biz"
+	"helloworld/app/user/internal/conf"
+	"helloworld/app/user/internal/data"
+	"helloworld/app/user/internal/server"
+	"helloworld/app/user/internal/service"
+)
+
+import (
+	_ "go.uber.org/automaxprocs"
 )
 
 // Injectors from wire.go:
